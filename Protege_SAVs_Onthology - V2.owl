@@ -1,0 +1,592 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pedroboieiro/ontologies/2022/3/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/pedroboieiro/ontologies/2022/3/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs">
+        <rdfs:comment xml:lang="en">Shared Autonomous Vehicles Ontology</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_vs_regular_vehicle_relative_price -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_vs_regular_vehicle_relative_price">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Individual_characteristics"/>
+        <rdfs:comment xml:lang="en">AV vs regular vehicle relative price with influenced by WTP individual characteristics.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Adoption_hindered_by_safety_concerns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Adoption_hindered_by_safety_concerns">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Safety_concerns"/>
+        <rdfs:comment xml:lang="en">Adoption hindered by safety concerns.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Aversion_to_sharing_rides_with_strangers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Aversion_to_sharing_rides_with_strangers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Individual_characteristics"/>
+        <rdfs:comment xml:lang="en">Individual characteristics regarding aversion to sharing rides with strangers.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Choice_decision -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Choice_decision">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ownership"/>
+        <rdfs:comment xml:lang="en">Choice decision, cost is important but entertainment or Wi-Fi in SAVs are not.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Commute_longer_distances -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Commute_longer_distances">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+        <rdfs:comment xml:lang="en">Commute longer distancies</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Efficiency_regulates_pricing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Efficiency_regulates_pricing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Policy/Pricing"/>
+        <rdfs:comment xml:lang="en">Congestion reduction due to pricing increase along with traffic (tolling), efficiency regulates pricing</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Endowment_Effect_which_values_ownership_more_than_WTP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Endowment_Effect_which_values_ownership_more_than_WTP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Endowment_effect"/>
+        <rdfs:comment xml:lang="en">Endowment Effect which values ownership more than WTP.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Fleet_and_traffic_optimization_reducing_emissions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Fleet_and_traffic_optimization_reducing_emissions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Low_emissions"/>
+        <rdfs:comment xml:lang="en">Going Green, fleet and traffic optimization reducing emissions</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#More_efficient_traffic_assignment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#More_efficient_traffic_assignment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Congestion"/>
+        <rdfs:comment xml:lang="en">More efficient traffic assignment extracting route flows and travel time.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#More_trip-making_demand_is_induced -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#More_trip-making_demand_is_induced">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Parking"/>
+        <rdfs:comment xml:lang="en">More trip-making demand is induced, with reduced parking demand.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ownership_private_vs_shared -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ownership_private_vs_shared">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+        <rdfs:comment xml:lang="en">Ownership private vs shared, different deployment method and business models</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAVs_repositioning_from_city_centres -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAVs_repositioning_from_city_centres">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+        <rdfs:comment xml:lang="en">SAVs repositioning from city centres implies longer voyages.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Shared_mobility_with_fleet_reduction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Shared_mobility_with_fleet_reduction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicles_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:comment xml:lang="en">AV/electrical vehicles (EV) shared mobility with fleet reduction</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Trust_new_Technologies_increase_with_legislative_and_ethical_clarification -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Trust_new_Technologies_increase_with_legislative_and_ethical_clarification">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Legislative_and_Ethical_clarification"/>
+        <rdfs:comment xml:lang="en">Trust new Technologies increase with legislative and ethical clarification.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Understanding_users_willingness_for_SAV_services -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Understanding_users_willingness_for_SAV_services">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Trust"/>
+        <rdfs:comment xml:lang="en">Understanding users willingness for SAV services, cross psychological barriers.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_development_in_old_parking_areas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_development_in_old_parking_areas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+        <rdfs:comment xml:lang="en">Urban development in old parking areas, land/energy consumption optimization.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Willing_to_pay_WTP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Willing_to_pay_WTP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+        <rdfs:comment xml:lang="en">Willing-to-Pay (WTP) higher with human-driven option, cause AV usage dilemma</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Dynamic_ridesharing/carsharing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Dynamic_ridesharing/carsharing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Mobility_as_a_Service"/>
+        <rdfs:comment xml:lang="en">Dynamic ridesharing/carsharing, unwilling to pay for individualization</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Local_SAVs_(LSAVS)_social_acceptance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Local_SAVs_(LSAVS)_social_acceptance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Acceptance"/>
+        <rdfs:comment xml:lang="en">Local SAVs (LSAVS) social acceptance.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAEVs_charging_strategies/battery_monitoring_optimization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAEVs_charging_strategies/battery_monitoring_optimization">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#EV_electrical_vehicle"/>
+        <rdfs:comment xml:lang="en">Shared autonomous electrical vehicles (SAEVs) charging strategies/battery monitoring optimization.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#LSAV_service -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#LSAV_service">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Local_SAV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_service -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_service">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Manufacturers_Technical_development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_private_ownership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_private_ownership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ownership"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_ownership"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_with_human_driven_option -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_with_human_driven_option">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Acceptance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Acceptance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Users"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#CAV_conected_autonomous_vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#CAV_conected_autonomous_vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#CV_connected_vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#CV_connected_vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Manufacturers_Technical_development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Carsharing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Carsharing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Mobility_as_a_Service"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ridesharing/Ridepooling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Congestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Congestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Demand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Demand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#EV_electrical_vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#EV_electrical_vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Manufacturers_Technical_development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicles_impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Efficiency_increase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Efficiency_increase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Endowment_effect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Endowment_effect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Users"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Fleet_reduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Fleet_reduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Government_local_authorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Government_local_authorities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Individual_characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Individual_characteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Users"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Legislative_and_Ethical_clarification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Legislative_and_Ethical_clarification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Government_local_authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Local_SAV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Local_SAV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Low_emissions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Low_emissions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Manufacturers_Technical_development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Manufacturers_Technical_development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Mobility_as_a_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Mobility_as_a_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ownership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ownership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Users"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Promoting_AV_usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Promoting_AV_usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Government_local_authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Regulatory_authorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Regulatory_authorities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAEV_shared_autonomous_elecrical_vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAEV_shared_autonomous_elecrical_vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#EV_electrical_vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicles_impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicles_impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_ownership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_ownership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ownership"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAEV_shared_autonomous_elecrical_vehicle"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Safety_concerns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Safety_concerns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Regulatory_authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Safety_increase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Safety_increase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Regulatory_authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#SAV_shared_autonomous_vehicles_impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Traffic_optimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Traffic_optimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Government_local_authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ecosystem_Efficiency_impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_sprawl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_sprawl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Government_local_authorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Users -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Users">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Social_impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Driverless/Robotaxi/Shuttle/Self_driving/Full_automation/Level5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Driverless/Robotaxi/Shuttle/Self_driving/Full_automation/Level5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#AV_autonomous_vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Policy/Pricing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Policy/Pricing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Urban_optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ridesharing/Ridepooling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Ridesharing/Ridepooling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pedroboieiro/ontologies/2022/SAVs#Mobility_as_a_Service"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
